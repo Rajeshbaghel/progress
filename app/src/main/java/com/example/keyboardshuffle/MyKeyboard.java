@@ -35,7 +35,7 @@ public class MyKeyboard extends LinearLayout implements View.OnClickListener {
     public MyKeyboard(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
-        init(context, attrs);
+        init(context,  attrs);
     }
 
     private void init(Context context, AttributeSet attrs) {
@@ -46,7 +46,9 @@ public class MyKeyboard extends LinearLayout implements View.OnClickListener {
         button2.setOnClickListener(this);
         button3 = findViewById(R.id.btn_textView3);
         button3.setOnClickListener(this);
-        button4 = findViewById(R.id.btn_textView4);
+        button4 = findViewById( R.id.btn_textView4);
+
+
         button4.setOnClickListener(this);
         button5 = findViewById(R.id.btn_textView5);
         button5.setOnClickListener(this);
