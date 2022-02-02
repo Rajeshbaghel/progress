@@ -66,9 +66,7 @@ public class MyKeyboard extends LinearLayout implements View.OnClickListener {
         buttondelete.setOnClickListener(this);
         buttonEnter = findViewById(R.id.btn_textViewEnter);
         buttonEnter.setOnClickListener(this);
-
         keyValues.put(R.id.btn_textViewEnter, "\n");
-
 
         List<Integer> objects = new ArrayList<Integer>();
         objects.add(0);
